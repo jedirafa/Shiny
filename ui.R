@@ -9,6 +9,8 @@ shinyUI(fluidPage(
   titlePanel("Rafael Godinho - Shiny Application"),
   
   mainPanel("Select one option of MT Cars database for the system to calculate the frequency of occurrences."),
+  helpText(   a("Click Here to Github project code.",     href="https://github.com/jedirafa/Shiny")
+  ),
   
   
  # Optionbar with colums of mtcars database
